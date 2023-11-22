@@ -7,5 +7,5 @@ ADD target/DockerExample3-0.0.1-SNAPSHOT.jar /app
 #Exposing port 8080
 EXPOSE 8080
 
-##This is how you run it
+##This is how you run it in cmd
 CMD ["java","-jar","DockerExample3-0.0.1-SNAPSHOT.jar"]
